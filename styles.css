@@ -1,0 +1,337 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:ital,wght@0,700;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  html {
+      scroll-behavior: smooth;
+      font-size: 10px;
+  }
+
+  body {
+      width: 100vw;
+  }
+
+  /* Navigation */
+  .navbar {
+      display: flex;
+      height: 10vh;
+      background-image: linear-gradient(to right, black, black, #615a1e);
+      position: sticky;
+      width: 100%;
+      top: 0;
+      z-index: 3;
+
+  }
+
+  .leftnav {
+      width: 50%;
+      display: flex;
+      align-items: center;
+  }
+
+  .rightnav {
+      width: 50%;
+      z-index: 1;
+  }
+
+  .leftnav img {
+      filter: invert(96%) sepia(43%) saturate(2%) hue-rotate(278deg) brightness(111%) contrast(100%);
+      height: 26px;
+      margin: 0px 24px;
+  }
+
+  .leftnav p {
+      color: #FFEB3B;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.3rem;
+  }
+
+
+  /* Ul items */
+  .ul-items {
+      display: flex;
+      height: 10vh;
+      justify-content: right;
+      align-items: center;
+      margin-right: 30px;
+      transition: all 2s ease-in-out;
+  }
+
+  .ul-items li {
+      list-style: none;
+      padding: 12px 20px;
+  }
+
+  .ul-items li a {
+      color: white;
+      font-family: 'Lato', sans-serif;
+      text-decoration: none;
+      font-size: 2rem;
+  }
+
+
+
+  /* main */
+  .main {
+      color: white;
+      height: 90vh;
+      width: 100%;
+      display: flex;
+  }
+
+  .secleft {
+      height: 67vh;
+      width: 50%;
+  }
+
+  .showcase {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 67vh;
+      align-items: center;
+      width: 87%;
+      margin: auto;
+  }
+
+  .bigtxt {
+      font-family: 'Roboto Condensed', sans-serif;
+      padding: 12px;
+  }
+
+  .bigtxt p {
+      font-size: 4.9rem;
+  }
+
+  .smalltxt {
+      font-family: 'Lato', sans-serif;
+      align-self: flex-start;
+      margin-left: 15px;
+      margin-bottom: 14px;
+      font-size: 2rem;
+  }
+
+  .showcase img {
+      border-radius: 132px;
+      width: 30px;
+      opacity: 80%;
+      border: 2px solid white;
+  }
+
+  div.showcase-logos {
+      display: flex;
+      align-self: flex-start;
+      margin: 0px 12px;
+  }
+
+  .showcase-logos-a {
+      padding-right: 15px;
+  }
+
+  #grad {
+      background-image: linear-gradient(to bottom right, black, #FFEB3B);
+  }
+
+
+  /* secright */
+  .secright {
+      width: 50%;
+      height: 67vh;
+  }
+
+  .img1 {
+      background: url(Programming\ Customizable\ Semi\ Flat\ Illustrations\ _\ Pana\ Style.png);
+      height: 500px;
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+
+  /*  Myself */
+  .myself {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+  }
+
+  .myself-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 100px 0px;
+  }
+
+  .myself-img {
+      height: 400px;
+      margin: 0px 25px;
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .myself-img img {
+      height: 300px;
+  }
+
+  .myself-box-p1 {
+      font-family: 'Lato', sans-serif;
+      font-size: 2.4rem;
+  }
+
+  .techlogos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 22px 0px;
+  }
+
+  .mern-png {
+      width: 300px;
+  }
+
+  .html-png {
+      height: 123px;
+  }
+
+  .myself-box-p2 {
+      display: flex;
+      font-family: 'Lato', sans-serif;
+      font-size: 2.4rem;
+  }
+
+  .btn-resume {
+      background-color: #FFEB3B;
+      padding: 7px 12px;
+      border-radius: 15px;
+      margin: 0px 12px;
+      color: black;
+  }
+
+  .btn-resume:hover {
+      background-color: #a09323;
+      color: white;
+      cursor: pointer;
+  }
+
+  /* line */
+  .line {
+      height: 1px;
+      width: 90%;
+      background-color: gray;
+      align-self: center;
+  }
+
+  /* Projects */
+  #projects {
+      height: 120vh;
+      width: 100%;
+      background-color: gainsboro;
+  }
+
+  .projects-h1 {
+      text-align: center;
+      padding: 36px 0;
+      font-size: 3.4rem;
+  }
+
+  .projects-main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 72vh;
+  }
+
+  .pt-1 {
+      display: flex;
+      height: 20vw;
+  }
+
+  .pt-1 h2 {
+      width: 21vw;
+      text-decoration: underline;
+      margin-left: 12px;
+      font-size: 2.5rem;
+  }
+
+  .pt-1 p {
+      font-family: 'Lato', sans-serif;
+      font-size: 2rem;
+      width: 97%;
+  }
+
+  .pt-descrip {
+      width: 100%;
+  }
+
+  .btn-m {
+      padding: 6px 10px;
+      font-size: 1.5rem;
+      margin-top: 15px;
+      border: 2px solid black;
+      border-radius: 23px;
+      color: gold;
+      background-color: black;
+      font-family: "lato";
+      cursor: pointer;
+  }
+
+  .btn-m:hover {
+      background-color: gray;
+  }
+
+  .pt-1-line {
+      height: 1px;
+      width: 100%;
+      background-color: gray;
+      margin: auto;
+  }
+
+  /* footer */
+  footer {
+      height: 10vh;
+      background-image: linear-gradient(to right, black, black, #615a1e);
+  }
+
+  .contactus {
+      display: flex;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.4rem;
+  }
+
+  .contactus h1 {
+      padding: 0px 20px;
+  }
+
+  .contactus p {
+      font-size: 2.2rem;
+  }
+
+  div.hambar {
+      height: 35px;
+      width: 57px;
+      position: absolute;
+      top: 13%;
+      right: 5%;
+      cursor: pointer;
+      display: none;
+  }
+
+  div.lin1 {
+      height: 5px;
+      background: white;
+      width: 41px;
+      margin: 5px auto;
+  }

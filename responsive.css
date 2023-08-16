@@ -1,0 +1,126 @@
+
+
+
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 7px;
+    }
+
+    div.hambar {
+        display: block;
+    }
+
+    .navbar {
+        max-width: 100%
+    }
+    .ul-items {
+        flex-direction: column;
+        margin: 0 20px;
+        display: none;
+    }
+
+    .change {
+        height: auto;
+        background: #4d420afb;
+        display: block;
+        flex-direction: column;
+        transition: all 5s ease-out;
+        /* z-index: -100; */
+        width: 100%;
+    }
+
+    /* main */
+    .secright {
+        display: none;
+    }
+    .showcase {
+        max-width: 100%;
+        align-items: baseline;
+    }
+
+    .bigtxt {
+        max-width: 80%;
+        padding: 0;
+    }
+    .smalltxt{
+      margin-left: 0;
+    }
+    div.showcase-logos{
+      margin: 0;
+    }
+
+    /* myself about */
+    .myself{
+      height: auto;
+    }
+    .myself-box{
+      flex-direction: column;
+    }
+    .myself-box-p1{
+      width: 90%;
+      margin: auto;
+    }
+    .techlogos{
+      flex-direction: column;
+      margin: auto;
+    }
+    .myself-box-p2{
+      justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .leftnav{
+      width: auto;
+    }
+    .leftnav img{
+      margin: 0 12px;
+    }
+    .contactus h1{
+      font-size: 14px;
+    }
+    .contactus p{
+      font-size: 14px;
+    }
+    .secleft{
+      width: 100%;
+    }
+    .showcase{
+      margin: auto;
+      width: 98%;
+      align-items: center;
+    }
+    .bigtxt{
+      width: 100%;
+      text-align: center;
+    }
+    .smalltxt{
+      align-self: center;
+    }
+    .showcase-logos{
+      width: 100%;
+      justify-content: center;
+    }
+    .myself-img{
+      width: fit-content;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .change{
+      height: 50vh;
+  }
+  #li-1{
+      padding-top: 16vh;
+  }
+  .myself-img img{
+      height: 260px;
+  }
+  .contactus h1{
+      font-size: 12px;
+  }
+  .contactus p{
+      font-size: 10px;
+  }
+}
