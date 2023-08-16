@@ -104,7 +104,15 @@
     .myself-img{
       width: fit-content;
     }
-
+    .ul-items li{
+      padding: 21px 20px;
+    }
+    .li-1{
+      padding-top: 16vh;
+    }
+    .change{
+      height: 50vh;
+    }
 }
 
 @media only screen and (max-width: 375px) {
