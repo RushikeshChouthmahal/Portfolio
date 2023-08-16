@@ -107,6 +107,15 @@
 
 }
 
+@media only screen and (max-width: 375) {
+  .contactus h1{
+    font-size: 12px;
+  }
+  .contactus p{
+    font-size: 11px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .change{
       height: 50vh;
