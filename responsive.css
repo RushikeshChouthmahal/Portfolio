@@ -107,7 +107,7 @@
 
 }
 
-@media only screen and (max-width: 375) {
+@media only screen and (max-width: 375px) {
   .contactus h1{
     font-size: 12px;
   }
